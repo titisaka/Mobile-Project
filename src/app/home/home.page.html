@@ -1,20 +1,79 @@
+
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Bits&Pieces
     </ion-title>
+    <ion-button size="default" slot="end" fill="outline" [routerLink]="['/shopfront']">Shop</ion-button>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-content [fullscreen]="true">
+    <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">Bits&Pieces</ion-title>
+      </ion-toolbar>
+    </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+    <hr>
+
+    <div id="container">
+      <strong>Welcome to Bits&Pieces</strong>
+      <p>A website dedicated to selling pc accesories and paraphernalia, allowing you to customise your computer to your hearts content. </p>
+      <ion-button shape ="round" size="default" [routerLink]="['/shopfront']">Shop Now</ion-button>
+
+      <br>
+      <br>
+
+      <strong>What We Offer</strong>
+      <div id="card-container">
+        <ion-card>
+          <img alt="Pink Mouse" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy_EspWabWZViFmmaR7_twgtVRI52PMWnAWeHC8Sxr3ZWgkKHqw0bV-KMTt0E4CrRyQug&usqp=CAU" />
+          <ion-card-header>
+            <ion-card-title>Mice!</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Priding ourselves with our high quality and radical products, we provide both wired and wireless mice in a wide variety of colours! 
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <img alt="Pink Mouse" src="https://m.media-amazon.com/images/I/61Ndr6T-l1L._AC_SL1500_.jpg" />
+          <ion-card-header>
+            <ion-card-title>Keyboard!</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Priding ourselves with our high quality and radical products, we provide both wired and wireless keyboards in a wide variety of colours! 
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <img alt="Pink Mouse" src="https://www.energysistem.com/cdnassets/products/45305/principal_2000.jpg" />
+          <ion-card-header>
+            <ion-card-title>Headphones!</ion-card-title>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Priding ourselves with our high quality and radical products, we provide both wired and wireless headphones in a wide variety of colours! 
+          </ion-card-content>
+        </ion-card>
+
+        <br>
+
+        <strong>And many more!</strong>
+      </div>
+
+      <br>
+      <br>
+
+      <div>
+        <strong>Convinced? Start Shopping now!</strong>
+        <br>
+        <ion-button shape ="round" size="default" [routerLink]="['/shopfront']">Shop Now</ion-button>
+      </div>
+    </div>
+
+  </ion-content>
+

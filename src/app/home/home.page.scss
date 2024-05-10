@@ -1,16 +1,23 @@
-#container {
-  text-align: center;
+#card-container{
+  height:275px;
+  overflow-y: auto;
 
+  text-align: center;
+}
+
+#container {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: auto;
+
+  left: 30px;
+  right: 30px;
+
+  padding: 5px;
 }
 
 #container strong {
   font-size: 20px;
-  line-height: 26px;
+  line-height: 30px;
 }
 
 #container p {
@@ -19,7 +26,9 @@
 
   color: #8c8c8c;
 
-  margin: 0;
+  margin: auto;
+
+  padding-bottom: 20px;
 }
 
 #container a {
